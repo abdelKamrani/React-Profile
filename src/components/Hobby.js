@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function Hobby({ value, name, img, quote, text }) {
-  // const back = ["back","hobby-flipped"]
   const [back, setBack] = useState(["back", "hobby-flipped"]);
   function flipHobby() {
     setBack(["delete-back", "hobby"]);
