@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Lato|Roboto|Montserrat|Oswald&display=swap");
-body {
-  /* height: 98vh; */
-  /* border: solid yellow; */
-}
 .global {
   border: solid yellow;
   height: 98vh;
