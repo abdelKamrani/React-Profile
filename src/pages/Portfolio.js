@@ -5,7 +5,7 @@ import ReposContainer from "../components/ReposContainer";
 
 function Portfolio() {
   const [repo, setRepo] = useState(null);
-  const token = "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";
+  const token = "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";
   const username = "aide-abdel";
 
   const getRepo = async (token, username) => {
