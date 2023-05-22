@@ -6,6 +6,7 @@ function Resume() {
     <div class="resume">
       <Menu />
       <iframe
+        className="resume-pdf"
         src="/AbdelHalim.pdf"
         title="Resume"
         width="80%"

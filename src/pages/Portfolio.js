@@ -2,10 +2,11 @@ import React from "react";
 import Menu from "../components/Menu";
 import { useState, useEffect } from "react";
 import ReposContainer from "../components/ReposContainer";
+import githubApiToken from "../config.js";
 
 function Portfolio() {
   const [repo, setRepo] = useState(null);
-  const token = "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";
+  const token = githubApiToken;
   const username = "aide-abdel";
 
   const getRepo = async (token, username) => {
@@ -19,7 +20,7 @@ function Portfolio() {
   };
   useEffect(() => {
     getRepo(token, username);
-  }, []);
+  }, [token]);
   return (
     <div className="portfolio">
       <Menu />
